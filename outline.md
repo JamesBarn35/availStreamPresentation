@@ -27,6 +27,8 @@
     involvement fluctuates over the course of this work. This was also worked on concurrently with my normal 
     day-to-day responsibilities.
 
+<br/><br/><br/>
+
 # Part 0: The Pipeline
 ## What the pipeline does
 - Currently, the stream the future availability of all hotels on Expedia in a single datalake. 
@@ -47,7 +49,11 @@
   - ~10 teams own components in the larger end-to-end solution
   - Leverages shared resources
 - Dealing with a large amount of data
-  - Pull metrics 
+  - Pull metrics
+
+
+<br/><br/><br/>
+
 
 # Part 1: Taming an Unruly Pipeline 
 ## Initial Incident Context
@@ -93,6 +99,10 @@ retention. So this wasn't going to be an easy investigation.
   - Thoroughly reviewing changes and design docs
 - The pipeline has since been stabilized and hasn't had any major issues since this initiative 
 
+
+<br/><br/><br/>
+
+
 # Part 2: building the future
 ## Tasked 
 - Led the design effort to let selection use 
@@ -135,6 +145,8 @@ This design uses natural search traffic
   - I plan on releasing a proof of concept in early Q1 2022
   - The implementation is slotted for Q3 2022
   
+<br/><br/><br/>
+
 # Conclusion
 - Led a successful stabilization and productionalization effort 
 - Led a cross-org design effort
