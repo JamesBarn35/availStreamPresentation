@@ -104,7 +104,7 @@ retention. So this wasn't going to be an easy investigation.
 
 
 # Part 2: building the future
-## Tasked 
+## Context of problem 
 - Led the design effort to let selection use 
 - Design a system that can be easily supported 
 - Redesigning Principles
