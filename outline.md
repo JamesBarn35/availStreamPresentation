@@ -147,8 +147,4 @@ This design uses natural search traffic
   
 <br/><br/><br/>
 
-# Conclusion
-- Led a successful stabilization and productionalization effort 
-- Led a cross-org design effort
-- Designed a cross-org solution
-- Served as tech lead for implementation
+# Closing (to be added)
