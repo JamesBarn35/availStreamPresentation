@@ -1,0 +1,26 @@
+{
+  "name": "code-aesthetics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "highlightjs": "^9.16.2",
+    "live-server": "^1.2.1",
+    "request": "^2.88.2",
+    "require": "^2.4.20",
+    "reveal.js": "^4.1.0",
+    "reveal.js-appearance": "^1.0.7",
+    "reveal.js-menu": "^2.1.0",
+    "reveal.js-simplemenu": "^1.0.3",
+    "revealjs-animated": "^1.2.2",
+    "typed-js": "^0.2.3",
+    "typed.js": "^2.0.11"
+  }
+}
