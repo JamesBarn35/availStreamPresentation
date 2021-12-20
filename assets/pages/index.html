@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>ａｅｓｔｈｅｔｉｃｓ</title>
+  <meta name="viewport" content="width=100%, user-scalable=yes">
+  <link rel="stylesheet" href="../../node_modules/reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="../../node_modules/reveal.js/dist/theme/black.css" id="theme">
+  <link rel="stylesheet" href="../../node_modules/reveal.js/plugin/highlight/zenburn.css">
+
+</head>
+
+<body>
+<div class="reveal">
+
+  <div class="slides" style="font-size: large">
+<!--    <section>-->
+<!--      <h1>TLS: The Pi-Penguins Squad</h1>-->
+<!--      <div style="display: flex;align-content: center">-->
+<!--        <div flex="16%"  style="padding-left:5%">-->
+<!--          <img src="./assets/leah.png" style="max-width:100px; max-height: 100px"/>-->
+<!--          <p style="margin-top: -5%">Leah</p>-->
+<!--        </div>-->
+<!--        <div flex="16%"  style="padding-left:5%">-->
+<!--          <img src="./assets/lauren.png" style="max-width:100px; max-height: 100px"/>-->
+<!--          <p style="margin-top: -5%">Lauren</p>-->
+<!--        </div>-->
+<!--        <div flex="16%"  style="padding-left:5%">-->
+<!--          <img src="./assets/gareth.png" style="max-width:100px; max-height: 100px"/>-->
+<!--          <p style="margin-top: -5%">Gareth</p>-->
+<!--        </div>-->
+<!--        <div flex="16%"  style="padding-left:5%">-->
+<!--          <img src="./assets/greg.png" style="max-width:100px; max-height: 100px"/>-->
+<!--          <p style="margin-top: -5%">Greg</p>-->
+<!--        </div>-->
+<!--        <div flex="16%"  style="padding-left:5%">-->
+<!--          <img src="./assets/brent.png" style="max-width:100px; max-height: 100px"/>-->
+<!--          <p style="margin-top: -5%">Brent</p>-->
+<!--        </div>-->
+<!--        <div flex="16%"  style="padding-left:5%">-->
+<!--          <img src="./assets/me.png" style="max-width:100px; max-height: 100px"/>-->
+<!--          <p style="margin-top: -5%">James</p>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <aside class="notes">-->
+<!--        <ul>-->
+<!--          <li>Notes Yo</li>-->
+<!--        </ul>-->
+<!--      </aside>-->
+<!--    </section>-->
+
+    <section>
+      <section data-auto-animate>
+        <h2 id="app">Final Pricing Service</h2>
+        <pre data-id="code" style="height: 550px;">
+							<code data-line-numbers class="hljs" data-trim>
+							  {
+								"clientid": "NGB.LBOC",
+								"messageid": "1c91909f-e9f1-456f-9c3f-b5683e633dce",
+								"activityid": "bc782f3b-1021-4437-8284-94b4289cef03",
+								"checkin": "2021-02-25",
+								"checkout": "2021-02-26",
+								"pointofsale": 5044,
+								"marketingchannel": 311,
+								"locale": "en-US",
+								"sitetype": 1,
+								"currency": "USD",
+								"properties": [
+								  {
+									"id": "25008024",
+									"rooms": [
+									  {
+										"adultcount": 2,
+										"products": [
+										  {
+											"roomid": "216617579",
+											"rateid": "264062555",
+											"perdayamounts": [
+											  {
+												"offers": [
+												  {
+													"id": "372156206",
+													"offertype": "BASE",
+													"descriptiondata": {
+													  "minlos": 1,
+													  "adjustmentamounttype": "PERCENT_ADJUSTMENT",
+													  "adjustment": {
+														"currency": "USD"
+													  }
+													},
+													"logid": "855016650"
+												  }
+												],
+												"pricing": [
+												  {
+													"monetaryclassid": 1,
+													"monetarycalcsysid": 8,
+													"monetarycalcid": 2,
+													"price": {
+													  "currency": "USD",
+													  "value": "52390000"
+													},
+													"cost": {
+													  "currency": "USD",
+													  "value": "44010000"
+													},
+													"contractualcommission": {
+													  "currency": "USD"
+													},
+													"variablecommission": {
+													  "currency": "USD"
+													},
+													"prediscountprice": {
+													  "currency": "USD",
+													  "value": "52390000"
+													},
+													"prediscountcost": {
+													  "currency": "USD",
+													  "value": "44010000"
+													},
+													"pricingtype": "FLAT_AMOUNT",
+													"costcode": "MVIR18"
+												  }
+												],
+												"contractualcompensation": "160000",
+												"personsincludedinbaserate": 2,
+												"sellrate": {
+												  "currency": "USD",
+												  "value": "52392900"
+												}
+											  }
+											],
+											"perstayamount": {},
+											"businessmodel": "EXPEDIA_COLLECT",
+											"cancellationpolicy": {
+											  "cancellationdatetime": "2021-02-25T18:00:00-06:00",
+											  "cancellationpenalties": [
+												{
+												  "id": "854505288",
+												  "effectivedatetime": "1970-01-01T00:00:00Z",
+												  "price": {
+													"currency": "USD"
+												  }
+												},
+												{
+												  "id": "854505287",
+												  "effectivedatetime": "2021-02-25T12:00:00-06:00",
+												  "nightcount": 1,
+												  "price": {
+													"currency": "USD"
+												  }
+												}
+											  ]
+											},
+											"startdate": "2021-02-25",
+											"rateplantypeid": 524288,
+											"supplieroperatingmodel": "AGENCY_SUPPLIER_OPERATING_MODEL"
+										  }
+										]
+									  }
+									],
+									"currency": "USD",
+									"inventorysource": 24,
+									"timezone": "America/Mexico_City",
+									"commissionableitems": [
+									  "FEES",
+									  "CANCELLATION_PENALTIES"
+									],
+									"providersystem": "MLSPE",
+									"packageupgradeallowed": true,
+									"marginableitems": [
+									  "FEES",
+									  "TAXES"
+									],
+									"countrycode": "MX"
+								  }
+								],
+								"shoppingpath": "STANDALONE_PATH",
+								"returnamounts": "TRANSACTIONAL",
+								"trace": true,
+								"currencyinfo": {
+								  "costcurrency": "USD",
+								  "pricecurrency": "USD",
+								  "exchangerate": "20389200",
+								  "effectivedatetime": "2021-02-25T00:03:06Z"
+								},
+								"pointofsalecountrycode": "MX",
+								"requestscope": "BOOKING"
+							  }
+							</code>
+						</pre>
+      </section>
+      <section data-auto-animate>
+        <h2>Final Pricing Service</h2>
+        <pre data-id="code">
+							<code data-line-numbers class="hljs" data-trim>
+							  {
+								"properties": [
+								  {
+									"rooms": [
+									  {
+										"products": [
+										  {
+											"businessmodel": "EXPEDIA_COLLECT",
+											"supplieroperatingmodel": "AGENCY_SUPPLIER_OPERATING_MODEL"
+										  }
+										]
+									  }
+									],
+									"marginableitems": [
+									  "FEES",
+									  "TAXES"
+									]
+								  }
+								]
+							  }
+							</code>
+						</pre>
+      </section>
+      <section>
+        <iframe data-autoplay style="width:100%;height:600px;" src="http://localhost:8888/" frameborder="0"></iframe>
+      </section>
+    </section>
+
+    <section>
+      <section data-auto-animate>
+        <h2>Updating Property Settings</h2>
+        <pre data-id="code" style="height: 550px;">
+							<code contenteditable="true" data-line-numbers class="hljs" data-trim>
+							  {
+								"HotelID": 8385,
+								"UpdateTUID": 33,
+								"HotelSettings": {
+								  "ActivationDate": "04-26-2002",
+								  "ActiveStatus": "Active",
+								  "SellState": "Free Sell",
+								  "ContractSourceType": [
+									  "Local Inventory"
+								  ],
+								  "BusinessModel": "Flex",
+								  "PreferredBusinessModel": "MerchantOnly",
+								  "PricingModel": "OccupancyBasedPricing",
+								  "RateAcquisitionType": "Net",
+								  "CurrencyCode": "USD",
+								  "MarketManagerUserID": 587823,
+								  "MarketManagerEmail": "nrachora@expedia.com",
+								  "LengthOfStayExtensionEnable": false,
+								  "OBPPricingLogic": "ChildrenAlwaysExtra",
+								  "VendorID": 916,
+								  "ServiceFeeSetting": "AutoAdjust",
+								  "NegotiatedDeals": "Medium",
+								  "CommissionableItems": [
+									  "Fees"
+								  ],
+								  "MarginableItems": [
+									  "None"
+								  ],
+								  "EFRSetting": "AdminToolsAndExtranetEnabled",
+								  "EFRBasis": "StayDate",
+								  "GroupReconciliationEnabled": true,
+								  "MaximumProductCount": 500,
+								  "VirtualCardEnabled": true,
+								  "LAREnabled": false,
+								  "FeesIncludedInRate": false,
+								  "TaxesIncludedInRate": false,
+								  "ExcludedFromPackages": false,
+								  "IncludeInPackageUpgrade": true,
+								  "IncludeInPackageMultiProperty": null,
+								  "TIDSCode": "50545460",
+								  "DistributorID": 0,
+								  "Segment": "A",
+								  "SegmentPotential": "No",
+								  "DefaultCancelPolicySetID": 0,
+								  "ReconcileOffsetDayCountMax": 0,
+								  "ExpediaCollectSupplierOperatingModel": "Agency",
+								  "ExpediaCollectSupplierRemittanceType": "Net"
+								},
+								"ConnectivitySettings": {
+								  "ARIEnabled": true,
+								  "ARILastUpdateDate": "08-25-2004 10:44:00",
+								  "EQCEnabled": false
+								},
+								"ExtranetSettings": {
+								  "ExtranetVersion": "Advanced",
+								  "AutoApprovalEnabled": true,
+								  "MinimumNightThreshold": 28,
+								  "MarketManagerOptOut": true,
+								  "ExtranetUserOptOut": false,
+								  "RistrictExtranetRequests": false,
+								  "LoadInventoryAllowed": true,
+								  "BulkEditEnabled": true,
+								  "CompetitivePriceGridEnabled": true,
+								  "InventoryGridEnabled": true,
+								  "ClosedToArrivalEnabled": false,
+								  "ClosedToDepartureEnabled": false,
+								  "ReservationAndFinanceToolsEnabled": true,
+								  "LARExtranetEnabled": false,
+								  "RatePlanLinkageState": "ExtranetReadOnly"
+								},
+								"InventorySettings": {
+								  "BaseAllocationEnabled": false,
+								  "MinimumLengthOfStayDefault": 1,
+								  "MaximumLengthOfStayDefault": 28,
+								  "CutOffDefault": 0,
+								  "CalculationMethodForLengthOfStay": "ArrivalBased",
+								  "InventoryLevel": true
+								},
+								"AgeTimeSettings": {
+								  "AllowedAgeCategories": [
+									  "Infant",
+									  "ChildAgeA",
+									  "Adult"
+								  ],
+								  "CheckInAge": 18,
+								  "CancellationTime": "23:59:00",
+								  "CutOffTime": "23:59:00",
+								  "CutOffDay": "SameDay",
+								  "TimeZoneID": 40,
+								  "TimeZoneName": "Mexico Standard Time",
+								  "TimeZoneUTCOffset": "-06:00",
+								  "CutOffTimeInMinutes": 1439
+								},
+								"PromotionSettings": {
+								  "MemberOnlyDealStackEnabled": false
+								}
+							  }
+							</code>
+						</pre>
+      </section>
+      <section data-auto-animate>
+        <h2>Updating Property Settings</h2>
+        <pre data-id="code">
+							<code data-line-numbers class="hljs" data-trim>
+								{
+								  "HotelID": 8385,
+								  "HotelSettings": {
+									"MarginableItems": [
+										"Taxes"
+									],
+									"ExpediaCollectSupplierOperatingModel": "Agency",
+									"ExpediaCollectSupplierRemittanceType": "Net"
+								  }
+								}
+							</code>
+						</pre>
+      </section>
+      <section>
+        <iframe data-autoplay style="width:100%;height:600px;" src="http://localhost:8888/" frameborder="0"></iframe>
+      </section>
+    </section>
+    <section>
+      <iframe src="https://grafana.prod.expedia.com/d-solo/a4wbq3Ciz/mls-insights?orgId=1&refresh=60s&from=1615407824125&to=1615408124125&var-DATASOURCE=metrictank-prod&var-region=us-west-2&var-app=mls-insights&var-server=All&panelId=32" width="1000" height="400" frameborder="0"></iframe>
+    </section>
+
+  </div>
+</div>
+
+<script src="../../node_modules/reveal.js/dist/reveal.js"></script>
+<script src="../../node_modules/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="../../node_modules/reveal.js/plugin/highlight/highlight.js"></script>
+<script src="../../node_modules/reveal.js-menu/menu.js"></script>
+<script>
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    autoAnimateDuration: 0.8,
+    plugins: [ RevealMarkdown, RevealHighlight, RevealMenu ],
+  });
+
+</script>
+
+</body>
+</html>
